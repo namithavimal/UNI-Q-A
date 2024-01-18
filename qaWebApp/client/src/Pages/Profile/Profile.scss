@@ -1,0 +1,85 @@
+.Profile {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 20px;
+    position: sticky;
+    top: 0;
+  
+    .container {
+        z-index: 1;
+        .box{
+          -webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+          -moz-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+          box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+          border-radius: 20px;
+          background-color: themed("bg");
+          color: themed("textColor");
+          margin-bottom: 60px;
+          width: 824px;
+          .pimage {
+            width: 70%;
+            height: 300px;
+            position: relative;
+            margin-left: 90px;
+            overflow: hidden;  
+            img {
+              width: 50%;  // Make the image take 100% of the container width
+              height: auto;  // Maintain aspect ratio
+              max-width: 50%;  // Ensure the image does not exceed the container width
+              object-fit: cover; 
+              margin-left: 120px;
+              margin-top: 20px; // Or use 'contain' based on your preference
+            }
+    
+          .profilePic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 50px;
+            cursor: pointer;
+          }
+          #updateimg {
+            position: absolute;
+            background-color: white; // Optional: Set background color to match the container
+            left: 70%;
+            top: 220px;
+            cursor: pointer;
+            object-fit: cover;
+          }
+        }
+     
+      
+  
+      .profileContainer {
+        //padding: 20px;
+        width: 70%;
+        .box {
+          // Container for the profile picture and text
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+         // margin-left: 10px;
+  
+          .left,
+          .center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+  
+            span {
+              font-size: 20px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+    }
+  }

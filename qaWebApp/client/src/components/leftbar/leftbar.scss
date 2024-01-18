@@ -1,0 +1,48 @@
+.leftbar {
+    flex: 1;
+    position:sticky;
+    height: relative;
+    justify-content: space-between;
+    top: 120px;
+    height: calc(100vh - 130px);
+    .container {
+            padding: 10px;
+        .menu{
+            //margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 10px;;
+            .user {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+    
+                img{
+                    width: 30px; 
+                    height: 30px; /* Maintain aspect ratio */
+                   border: 1px solid #4e2727; /* Example border */
+                    border-radius: 50%;
+                    object-fit: cover;
+                    cursor: pointer;
+                     }
+                    
+                span {
+                font-size: 14px;
+                cursor: pointer;
+                }
+            }
+            .logout{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                cursor: pointer;
+                span {
+
+                    font-size: 14px;
+                    cursor: pointer;
+                    }
+            }
+        }
+    }
+}   

@@ -1,0 +1,29 @@
+.container {
+
+  //display: flex;
+  //flex-direction: column;
+  margin-top: 20px;
+
+  .filterContainer {
+    margin-top: 20px;
+    margin-left: 440px;
+
+    .filterLabel {
+      margin-left: 60px;
+      padding: 5px;
+      font-size: 15px;
+      //color: rgb(15, 14, 14);
+             font-family:Arial, Helvetica, sans-serif
+   
+    }
+    .filterSelect {
+     padding: 5px;
+     
+      border: 1px solid #ccc;
+     border-radius: 4px;
+      color: white;
+      cursor: pointer;
+      background-color: #aa6a6d;
+    }
+  }
+}

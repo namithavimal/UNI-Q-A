@@ -1,0 +1,90 @@
+.Login{
+height: 100vh;
+background-color:#A28089    ;
+//background-color:#494d5f    ;
+display:flex;
+align-items: center;
+justify-content: center;
+        .card{
+            width: 50%;
+            display: flex;
+            background-color: rgb(183, 157, 170);
+            border-radius: 20px;
+            min-height: 500px;
+            overflow: hidden;
+            .left{
+                flex: 1;
+                background: linear-gradient(rgba(183, 157, 170, 0.53),rgba(50, 33, 41, 0.519)), url("https://img.freepik.com/free-vector/group-discussion-concept-illustration_114360-8782.jpg?w=740&t=st=1700666354~exp=1700666954~hmac=09f5aa6837bf60ef9428531ab69dfb9a6c6fce37403d3d45a5d29ba20947cc00")
+                center;
+                background-size: cover;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                color:rgb(16, 13, 13);
+                h1{
+                    margin-top: 95px;
+                    font-size: 60px;
+                    line-height: 8%;
+                    font-family: Georgia;
+                    color: #393939;
+                }
+                span{
+                    margin-top: 190px;
+                    // padding-top: 80px;
+                    //font-size:17px ;
+                    color:white;
+                }
+                button{
+                    // width: 170px;
+                    // height: 50px;
+                    margin-top: 0px;
+                    width: 50%;
+                    padding: 10px;
+                    border: none;
+                    background: none;
+                    background-color:rgb(103, 40, 58);
+                    color: rgb(224, 210, 217);
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+
+            }
+            .right{
+                flex: 1;
+                padding: 50px;
+                font-size: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                justify-content: center;
+                flex:1;
+                padding: 20px;
+                h1{
+                    margin-top: 0px;
+                    color: #393939;
+                    font-family: Georgia;
+                }
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    input{
+                        border: none;
+                        border-bottom: 1px solid lightgray;
+                        padding: 15px 10px;
+                    }
+                    button{
+                        width: 50%;
+                        padding: 10px;
+                        border: none;
+                        background-color:rgb(103, 40, 58);
+                        color: white;
+                        font-weight: bold;
+                        cursor: pointer;
+                    }
+                }
+
+            }
+         }
+}
